@@ -22,5 +22,22 @@ router.get("/api/workouts/range", (req, res) => {
     })
 })
 
+router.post("/api/workouts", (req, res) => {
+    workout.create({})
+    .then(dbWorkout => {
+        res.json(dbWorkout)
+    })
+    .catch(err => {
+        res.json(err)
+    })
+})
+
+router.put("/api/workouts/:id", ({body, params}, res) => {
+    workout.findByIdandUpdate(
+        {$push: {exercises: body}},
+        {new: true, runValidators: true}
+    )
+})
+
 module.exports = router
 
