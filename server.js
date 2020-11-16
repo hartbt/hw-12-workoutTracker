@@ -1,9 +1,10 @@
 var express = require("express");
-var app = express();
 var logger = require("morgan")
 var mongoose = require("mongoose")
 
 const PORT = process.env.PORT || 3000
+
+var app = express();
 
 app.use(logger("dev"))
 app.use(express.urlencoded({ extended: true }));
@@ -19,9 +20,6 @@ app.use(require("./routes/api-routes"))
 
 
 
-app.get("/", function(req, res) {
-  res.send("");
-})
 
 // Listener
 // ===========================================================
