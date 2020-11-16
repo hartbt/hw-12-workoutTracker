@@ -1,5 +1,5 @@
 var mongoose = require("mongoose")
-var schema = mongoose.schema
+var Schema = mongoose.Schema
 
 const workoutSchema = new Schema(
     {
