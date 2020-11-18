@@ -2,7 +2,7 @@
 
 This assignment serves as a workout tracker, that allows the user to either continue a workout or create a new workout. The user is first prompted with the last workout and criteria to go along with that. The user is also able to view a dashboard that will show the duration of the workout, the pounds lifted, as well as the exercise performed.
 
-<iframe src="https://drive.google.com/file/d/1wsU8eNXHXoH9w4GafJR3UoJKel0RRnxF/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1DAkxErRVgiIXgKebrULXHyFqcPGrP-pG/preview" width="640" height="480"></iframe>
 
 <strong>Link to site:</strong> https://stark-crag-90976.herokuapp.com/
 
